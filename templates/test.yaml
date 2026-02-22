@@ -8,9 +8,9 @@ metadata:
   tags:
     - aap-operations
 spec:
-  owner: RedHat
+  owner: ansible-authors
+  system: ansible
   type: service
-
   parameters:
     - title: Project data
       description: Provide project data
