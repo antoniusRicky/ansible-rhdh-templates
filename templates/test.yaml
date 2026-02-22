@@ -6,7 +6,9 @@ metadata:
   title: Create Ansible Project
   description: Create a new Ansible Project
   tags:
-    - aap-operations
+    - recommended
+    - ansible
+    - project
 spec:
   owner: ansible-authors
   system: ansible
