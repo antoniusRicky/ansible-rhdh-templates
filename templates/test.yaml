@@ -26,9 +26,9 @@ spec:
           type: string
           description: Oauth2 token
           ui:field: AAPTokenField
-          # ui:backstage:
-          #   review:
-          #     show: false
+          ui:backstage:
+            review:
+              show: true
         scmType:
           title: Select source control option
           type: string
@@ -58,7 +58,7 @@ spec:
           ui:help: 'Source control URL: gitSourceControlUrlHelp'
           ui:options:
             rows: 5
-          default: https://github.com/ansible/ansible-pattern-loader
+          default: https://github.com/ansible/ansible-pattern-loaders
         scmBranch:
           title: Source control branch/tag/commit
           type: string
