@@ -26,9 +26,9 @@ spec:
           type: string
           description: Oauth2 token
           ui:field: AAPTokenField
-          ui:backstage:
-            review:
-              show: false
+          # ui:backstage:
+          #   review:
+          #     show: false
         scmType:
           title: Select source control option
           type: string
@@ -39,6 +39,7 @@ spec:
             - Gitlab
         organization:
           title: Organization
+          type: string
           description: Select organization
           resource: organizations
           ui:field: AAPResourcePicker
@@ -47,6 +48,7 @@ spec:
             name: Default
         credentials:
           title: Credentials
+          type: string
           description: Select SCM credential for Private repositories
           resource: credentials
           ui:field: AAPResourcePicker
